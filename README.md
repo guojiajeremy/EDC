@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Experiments are conducted on NVIDIA GeForce RTX 3090 (24GB). Same GPU and package version are recommended. 
 
 ## 2. Prepare Datasets
-Noted that `../` is the upper directory of ReContrastAD. It is where we keep all the datasets by default.
+Noted that `../` is the upper directory of this folder (EDC). It is where we keep all the datasets by default.
 
 ### OCT2017
 Creat a new directory `../OCT2017`. Download ZhangLabData form [URL](https://data.mendeley.com/datasets/rscbjbr9sj/3).
@@ -145,6 +145,9 @@ python edc_isic.py
 ```
 
 ### Further Improvement
-
+See our new paper "ReContrast: Domain-Specific Anomaly Detection via Contrastive Reconstruction" NeurIPS 2023.
+It introduces three key elements of contrastive learning into feature reconstruction, i.e., two-view contrastive pair,
+global similarity, and stop gradient, building a fully 2-D contrastive paradigm. ReContrast also yields SOTA
+performances on industrial UAD datasets (MVTecAD and VisA).
 
 
