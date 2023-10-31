@@ -20,7 +20,7 @@ Experiments are conducted on NVIDIA GeForce RTX 3090 (24GB). Same GPU and packag
 Noted that `../` is the upper directory of this folder (EDC). It is where we keep all the datasets by default.
 
 ### OCT2017
-Creat a new directory `../OCT2017`. Download ZhangLabData form [URL](https://data.mendeley.com/datasets/rscbjbr9sj/3).
+Creat a new directory `../OCT2017`. Download ZhangLabData from [URL](https://data.mendeley.com/datasets/rscbjbr9sj/3).
 Unzip the file, and move everything in `ZhangLabData/CellData/OCT` to `../OCT2017/`. The directory should be like:
 ```
 |-- OCT2017
@@ -38,7 +38,7 @@ Unzip the file, and move everything in `ZhangLabData/CellData/OCT` to `../OCT201
 
 ### APTOS
 Creat a new directory `../APTOS`.
-Download APTOS 2019 form [URL](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data).
+Download APTOS 2019 from [URL](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data).
 Unzip the file to `../APTOS/original/`. Now, the directory would be like:
 ```
 |-- APTOS
@@ -96,7 +96,7 @@ You can delete `original` if you want.
 
 ### Br35H
 Creat a new directory `../Br35H`.
-Go to the ISIC 2018 official [website](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
+Go to the kaggle [website](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection).
 Download "yes" and "no".
 Unzip them to `../Br35H/original/`. Now, the directory would be like:
 ```
